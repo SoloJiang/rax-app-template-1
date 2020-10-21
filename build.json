@@ -1,0 +1,23 @@
+{
+  "targets": [
+    "web",
+    "weex",
+    "kraken",
+    "miniapp"
+  ],
+  "plugins": [
+  ],
+  "devServer": {
+    "writeToDisk": true
+  },
+  "web": {
+    "mpa": true,
+    "ssr": true
+  },
+  "weex": {
+    "mpa": true
+  },
+  "kraken": {
+    "mpa": true
+  }
+}
